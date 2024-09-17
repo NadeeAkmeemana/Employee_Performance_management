@@ -1,0 +1,82 @@
+:root {
+  --primary: #ffffff;
+}
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--primary);
+  color: #000000;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 10px 26px;
+  font-size: 20px;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--medium:hover,
+.btn--large:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s ease-out;
+}
+
+.btn--outline1 {
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  width: 60px;
+  height: 20px;
+  font-size: 10px;
+  position: absolute;
+  right: 50px;
+  top: 15px;
+}
+
+.btn--outline1:hover {
+  background: #fff;
+  color: #000;
+}
+
+.btn--outline2 {
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  width: 120px;
+  height: 50px;
+  font-size: 15px;
+  position: absolute;
+  right: 50px;
+  top: 15px;
+}
+.btn--outline2:hover {
+  background: #fff;
+  color: #000;
+}

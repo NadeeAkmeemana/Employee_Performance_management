@@ -1,0 +1,78 @@
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto; /* Center the container horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center children elements horizontally */
+    padding-top: 40px; /* Adds spacing at the top */
+}
+
+/* Add Employee form styling */
+.employee-form {
+    width: 100%; /* Ensure the form takes full container width */
+    max-width: 600px; /* Limit form width */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form inputs */
+    margin-bottom: 30px;
+}
+
+.employee-form input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.add-btn {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Employee table styling */
+.employee-table {
+    width: 100%;
+    max-width: 800px; /* Limit the table width */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.employee-table th, .employee-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.employee-table th {
+    background-color: #f0f0f0;
+}
+
+.edit-btn, .delete-btn {
+    padding: 8px 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-btn {
+    background-color: #28a745;
+    margin-right: 8px;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+}
